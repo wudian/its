@@ -88,7 +88,7 @@ bool CtpClient::Init(bool is_day, std::string& err)
 	string IP = IPs_[i_++];
 
 	if (!m_market_api->Init(IP, this, err)) {
-		err = std::string("CTP API Init error : ") + err;
+		err = IP + " CTP API Init error:" + err;
 		m_market_api->Denit();
 		return false;
 	}
