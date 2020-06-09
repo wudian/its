@@ -51,7 +51,7 @@ ADD_EXECUTABLE(${PROJECT_NAME} ${TOOL_SRC})
 SET_TARGET_PROPERTIES(${PROJECT_NAME} PROPERTIES VERSION 1.0 SOVERSION 1)
 
 # link external lib
-TARGET_LINK_LIBRARIES(${PROJECT_NAME} pthread QtCore QtXml common ctp datalib network account strategy thosttraderapi thostmduserapi)
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} pthread QtCore QtXml common ctp datalib network account strategy thostmduserapi_se thosttraderapi_se)
 
 #set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 

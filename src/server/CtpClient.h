@@ -29,7 +29,7 @@ private:
 	}
 
 	virtual void OnMdDisconnect(const std::string& reson) {
-		APP_LOG(LOG_LEVEL_INFO) << "OnMdDisconnect";
+		APP_LOG(LOG_LEVEL_INFO) << "OnMdDisconnect " << reson;
 	}
 
 	virtual void OnMdConnect() {

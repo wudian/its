@@ -11,8 +11,8 @@
 
 AutoRun::AutoRun() : TimedStateTaskManager(), ctp_client_(NULL)
 {
-	/*day_close_time_ = Time(15, 20, 0);
-	night_open_time_ = Time(20, 40, 0);*/
+	day_close_time_ = Time(17, 20, 0);
+	night_open_time_ = Time(20, 40, 0);
 	SetInterval(10000);
 	StartTimer();
 
