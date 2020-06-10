@@ -20,14 +20,13 @@ vs2010
 # quick user it：
 git clone https://github.com/wudian/its.git
 
+ (ubuntu)
+用clion打开CMakeLists.txt
+ 
 （linux）
-
-sh bin/init_env.sh
-
-make
+sh bin/init_env.sh　&& make
 
 （win）
-
 用vs2010打开sln/its.sln
 
 # 目录结构说明
