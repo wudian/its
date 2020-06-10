@@ -51,7 +51,7 @@ bool Strategy::Init(string &err){
 	target_profit_value_ = atof(node.GetValue("target_profit_value").c_str());
 	*/
 	
-	symbol_ =  Symbol(PRODUCT_FUTURE, EXCHANGE_SHFE, "rb1810");	
+	symbol_ =  Symbol(PRODUCT_FUTURE, EXCHANGE_DCE, "a2009");
 	timer_ = new TimerApi(10000, this);
 	//timer_->Start(30000);
 	

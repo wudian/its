@@ -52,7 +52,7 @@ ADD_LIBRARY(${PROJECT_NAME} SHARED ${TOOL_SRC})
 SET_TARGET_PROPERTIES(${PROJECT_NAME} PROPERTIES VERSION 1.0 SOVERSION 1)
 
 # link external lib
-TARGET_LINK_LIBRARIES(${PROJECT_NAME} QtCore QtXml common datalib thosttraderapi thostmduserapi)
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} QtCore QtXml common datalib thosttraderapi_se thostmduserapi_se)
 
 #set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 

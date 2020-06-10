@@ -109,6 +109,8 @@ bool CtpClient::Init(bool is_day, std::string& err)
 			if (i != 0) { sub_syms_ += ","; }
 			sub_syms_ += syms[i].instrument;
 		}
+
+        sub_syms_ = "a2009";
 	} 
 	else
 	{
@@ -118,6 +120,8 @@ bool CtpClient::Init(bool is_day, std::string& err)
 			if (i != 0) { sub_syms_ += ","; }
 			sub_syms_ += syms[i].instrument;
 		}
+
+        sub_syms_ = "a2009";
 	}
 	
 	if (!m_market_api->Subscribe(sub_syms_, err)) return false;

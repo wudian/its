@@ -6835,32 +6835,6 @@ struct CThostFtdcQryBulletinField
 	TThostFtdcNewsUrgencyType	NewsUrgency;
 };
 
-///MulticastInstrument
-struct CThostFtdcMulticastInstrumentField
-{
-	///主题号
-	TThostFtdcInstallIDType	TopicID;
-	///合约代码
-	TThostFtdcInstrumentIDType	InstrumentID;
-	///合约编号
-	TThostFtdcInstallIDType	InstrumentNo;
-	///基准价
-	TThostFtdcPriceType	CodePrice;
-	///合约数量乘数
-	TThostFtdcVolumeMultipleType	VolumeMultiple;
-	///最小变动价位
-	TThostFtdcPriceType	PriceTick;
-};
-
-///QryMulticastInstrument
-struct CThostFtdcQryMulticastInstrumentField
-{
-	///主题号
-	TThostFtdcInstallIDType	TopicID;
-	///合约代码
-	TThostFtdcInstrumentIDType	InstrumentID;
-};
-
 ///转帐开户请求
 struct CThostFtdcReqOpenAccountField
 {
